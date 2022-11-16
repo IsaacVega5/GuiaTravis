@@ -18,6 +18,5 @@ class test_calculadora(unittest.TestCase):
         result = dividir(12,3)
         self.assertEqual(result, 4, "El resultado debería ser 4")
 
-
 if __name__ == "__main__":
     unittest.main()
