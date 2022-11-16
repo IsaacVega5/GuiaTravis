@@ -18,10 +18,6 @@ class test_calculadora(unittest.TestCase):
         result = dividir(12,3)
         self.assertEqual(result, 4, "El resultado debería ser 4")
 
-    def test_sumar(self):
-        result = sumar(1,2)
-        self.assertEqual(result, 3, "El resultado debería ser 3")
-
 
 if __name__ == "__main__":
     unittest.main()
