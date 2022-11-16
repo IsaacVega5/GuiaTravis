@@ -1,5 +1,5 @@
 import unittest
-from Calculadora.app import sumar, dividir, restar, multiplicar, elevar
+from Calculadora.app import sumar, dividir, restar, multiplicar
 
 class test_calculadora(unittest.TestCase):
     def test_sumar(self):
