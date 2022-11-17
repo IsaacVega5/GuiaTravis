@@ -12,3 +12,5 @@ def multiplicar(x,y):
 def dividir(x,y):
     return x // y
 
+def elevar(x,y):
+    return x ** y
